@@ -1,0 +1,7 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: rgb(66, 129, 187);
+    font-size: 40px;
+    
+}

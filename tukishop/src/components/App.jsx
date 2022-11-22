@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <ItemListContainer greeting={""}/>
+      <ItemListContainer greeting={"¡Bienvenido a nuestra Tienda Online!"}/>
     </>
       
   );

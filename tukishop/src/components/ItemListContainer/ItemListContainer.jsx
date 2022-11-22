@@ -1,7 +1,9 @@
+import './ItemListContainer.css';
+
 const ItemListContainer = ({greeting}) => {
     return (
         <>
-            <p>{greeting}</p>
+            <p className="titulo">{greeting}</p>
         </>
     );
 }

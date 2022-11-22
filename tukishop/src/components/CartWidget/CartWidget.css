@@ -1,0 +1,10 @@
+.contador {
+    padding-top: 15px;
+}
+
+.contenedorCarrito svg {    
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
