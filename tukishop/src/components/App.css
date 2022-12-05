@@ -1,0 +1,19 @@
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+    background-color: hsl(219, 64%, 82%);
+}
+
+.cardProductos {
+    margin: 4px;
+    align-items:center;
+    justify-content: center;
+}
+
+.cuerpo {
+    margin-bottom: 3px;
+    text-align: center;
+    color: black;
+}
+
+

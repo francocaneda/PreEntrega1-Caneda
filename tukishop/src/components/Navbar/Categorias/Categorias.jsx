@@ -1,24 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Categorias = () => {
     return (
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-                <a className="nav-link" href="#">Inicio</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Productos</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Servicios</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Sucursales</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Nosotros</a>
-            </li>
-      </ul>
+        <div>
+            <button className="botonesNavBar"><Link className='nav-link' to={"/category/1"}>Alimentos</Link></button>
+            <button className="botonesNavBar"><Link className='nav-link' to={"/category/2"}>Accesorios</Link></button>
+            <button className="botonesNavBar"><Link className='nav-link' to={"/category/3"}>Utilidades</Link></button>
+        </div>
     );
 }
 

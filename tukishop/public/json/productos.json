@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Alimento",
+        "precio": 1000,
+        "stock": 50,
+        "img": "alimento.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Collar",
+        "precio": 1000,
+        "stock": 30,
+        "img": "collar.png"     
+    },
+    {
+        "id": 3,
+        "idCategoria": 3,
+        "nombre": "Peine",
+        "precio": 600,
+        "stock": 30,
+        "img": "peine.png"     
+    },
+    {
+        "id": 4,
+        "idCategoria": 2,
+        "nombre": "Collar",
+        "precio": 450,
+        "stock": 35,
+        "img": "bolso.png"     
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "Arnes",
+        "precio": 400,
+        "stock": 60,
+        "img": "arnes.png"     
+    },
+    {
+        "id": 6,
+        "idCategoria": 3,
+        "nombre": "Shampoo",
+        "precio": 450,
+        "stock": 40,
+        "img": "shampoo.png"     
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Chaleco",
+        "precio": 1200,
+        "stock": 20,
+        "img": "chaleco.png"     
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Medicamento",
+        "precio": 620,
+        "stock": 30,
+        "img": "medicamento.png"     
+    }
+]
