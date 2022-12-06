@@ -1,7 +1,41 @@
 .cardProducto {
+    
     width: 18rem;
     margin: 4px;
     background-color: hsl(219, 64%, 82%);
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.cardProducto h5 {
+    font-size: 30px;
+}
+
+.cardProducto img {
+    width: 260px;
+    height: 350px;
+}
+
+.cardDetalle {
+    text-align: center;
+}
+
+.cardDetallePrincipal {
+    color: white;
+    text-shadow: 0 0 8px black;
+    font-size: 22px;
+}
+
+.cardDetallePrincipal h5 {
+    color: white;
+    text-shadow: 0 0 8px black;
+    font-size: 35px;
+}
+
+.cardDetalle img {
+    width: 260px;
+    height: 350px;
 }
 
 .cardProductos {
@@ -16,4 +50,12 @@
     color: black;
 }
 
+.botoncitos {
+    display: flex;
+    column-gap: 20px;
+    margin-left: 20px;
+}
 
+.botonInicio {
+    margin-left: 40px;
+}

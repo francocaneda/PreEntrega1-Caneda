@@ -2,7 +2,7 @@
     {
         "id": 1,
         "idCategoria": 1,
-        "nombre": "Alimento",
+        "nombre": "Royal Canin",
         "precio": 1000,
         "stock": 50,
         "img": "alimento.png"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "idCategoria": 2,
-        "nombre": "Collar",
+        "nombre": "Collar Perro",
         "precio": 1000,
         "stock": 30,
         "img": "collar.png"     
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "idCategoria": 2,
-        "nombre": "Collar",
+        "nombre": "Bolso",
         "precio": 450,
         "stock": 35,
         "img": "bolso.png"     
@@ -62,5 +62,37 @@
         "precio": 620,
         "stock": 30,
         "img": "medicamento.png"     
+    },
+    {
+        "id": 9,
+        "idCategoria": 1,
+        "nombre": "Cat Chow",
+        "precio": 1000,
+        "stock": 30,
+        "img": "catchow.png"   
+    },
+    {
+        "id": 10,
+        "idCategoria": 2,
+        "nombre": "Collar Gato",
+        "precio": 850,
+        "stock": 30,
+        "img": "collargato.png"   
+    },
+    {
+        "id": 11,
+        "idCategoria": 3,
+        "nombre": "Antipulgas",
+        "precio": 710,
+        "stock": 30,
+        "img": "antipulgas.png"   
+    },
+    {
+        "id": 12,
+        "idCategoria": 1,
+        "nombre": "Alimento Reptiles",
+        "precio": 630,
+        "stock": 30,
+        "img": "reptil.png"   
     }
 ]
