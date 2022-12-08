@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "idCategoria": "alimentos",
         "nombre": "Royal Canin",
         "precio": 1000,
         "stock": 50,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "idCategoria": 2,
+        "idCategoria": "accesorios",
         "nombre": "Collar Perro",
         "precio": 1000,
         "stock": 30,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "idCategoria": 3,
+        "idCategoria": "accesorios",
         "nombre": "Peine",
         "precio": 600,
         "stock": 30,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "idCategoria": 2,
+        "idCategoria": "utilidades",
         "nombre": "Bolso",
         "precio": 450,
         "stock": 35,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "idCategoria": 2,
+        "idCategoria": "accesorios",
         "nombre": "Arnes",
         "precio": 400,
         "stock": 60,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "idCategoria": 3,
+        "idCategoria": "utilidades",
         "nombre": "Shampoo",
         "precio": 450,
         "stock": 40,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "idCategoria": 2,
+        "idCategoria": "accesorios",
         "nombre": "Chaleco",
         "precio": 1200,
         "stock": 20,
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "idCategoria": 3,
+        "idCategoria": "utilidades",
         "nombre": "Medicamento",
         "precio": 620,
         "stock": 30,
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "idCategoria": 1,
+        "idCategoria": "alimentos",
         "nombre": "Cat Chow",
         "precio": 1000,
         "stock": 30,
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "idCategoria": 2,
+        "idCategoria": "accesorios",
         "nombre": "Collar Gato",
         "precio": 850,
         "stock": 30,
@@ -81,7 +81,7 @@
     },
     {
         "id": 11,
-        "idCategoria": 3,
+        "idCategoria": "utilidades",
         "nombre": "Antipulgas",
         "precio": 710,
         "stock": 30,
@@ -89,7 +89,7 @@
     },
     {
         "id": 12,
-        "idCategoria": 1,
+        "idCategoria": "alimentos",
         "nombre": "Alimento Reptiles",
         "precio": 630,
         "stock": 30,
