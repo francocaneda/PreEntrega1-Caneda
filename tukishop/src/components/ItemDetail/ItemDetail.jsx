@@ -23,7 +23,7 @@ const ItemDetail = ({item}) => {
                     <p className="card-text">Precio: $ {new Intl.NumberFormat('de-DE').format(item.precio)} </p>
                     <p className="card-text">Stock: {item.stock} </p>
                     <ItemCount inicial = {1} stock= {item.stock} onAdd={onAdd}/><br/>
-                    <button className={`btn ${darkMode ? 'btn-dark border-light' : 'btn-dark border-light'}`}> <Link to="/cart" className="nav-link">FINALIZAR COMPRA</Link></button>
+                    <Link to="/cart" className="nav-link"><button className={`btn ${darkMode ? 'btn-dark border-light' : 'btn-dark border-light'}`}> FINALIZAR COMPRA</button></Link>
                 </div>
                 
             </div>

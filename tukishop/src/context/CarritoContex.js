@@ -7,8 +7,7 @@ export const useCarritoContext = () => useContext(CarritoContext)
 export const CarritoProvider = (props) => {
     const [carrito, setCarrito] = useState([]);
     
-    //VerCantidad - Agregar productos - Eliminar producto - 
-    //Vaciar el carrito - FinalizarCompra - Buscar producto
+
 
     const isInCart = (id) => {
         //Retorna producto (V) o undefined (F)

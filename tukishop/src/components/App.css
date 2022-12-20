@@ -47,6 +47,7 @@
 
 .cardProductos {
     margin: 4px;
+    margin-top: 20px;
     align-items:center;
     justify-content: center;
 }
@@ -126,3 +127,10 @@
 .container {
     margin-top: 15px;
 }
+
+.cantCarrito {
+    position: relative;
+    left: 15%;
+    top: 30%;
+}
+

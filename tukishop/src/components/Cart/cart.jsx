@@ -11,7 +11,7 @@ const Cart = () => {
             <>  
                 <div className="carritoVacio">
                 <h1>Carrito vacio</h1>
-                <button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}><Link  className="nav-link" to={'/'}>Continuar comprando</Link></button>
+                <Link  className="nav-link" to={'/'}><button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}>Continuar comprando</button></Link>
                 </div>
             </>
             :
@@ -41,8 +41,8 @@ const Cart = () => {
                     <p className="resumenCompra">Resumen de la compra: ${ new Intl.NumberFormat('de-De').format(totalPrice())}</p>
                     <div className="botonesFinales">
                     <button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`} onClick={emptyCart}>Vaciar Carrito</button>
-                    <button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}><Link  className="nav-link" to={'/'}>Continuar comprando</Link></button>
-                    <button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}><Link  className="nav-link" to={'/checkout'}>Finalizar Compra</Link></button>
+                    <Link  className="nav-link" to={'/'}><button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}>Continuar comprando</button></Link>
+                    <Link  className="nav-link" to={'/checkout'}><button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}>Finalizar Compra</button></Link>
                     </div>
                 </div>   
             </div>
