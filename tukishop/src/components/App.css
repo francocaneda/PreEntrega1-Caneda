@@ -1,3 +1,5 @@
+
+
 .cardProducto {
     
     width: 18rem;
@@ -25,12 +27,17 @@
     color: white;
     text-shadow: 0 0 8px black;
     font-size: 22px;
+
 }
 
 .cardDetallePrincipal h5 {
     color: white;
     text-shadow: 0 0 8px black;
     font-size: 35px;
+}
+
+.cardDetallePrincipalDos {
+    width: 50px;
 }
 
 .cardDetalle img {
@@ -58,4 +65,64 @@
 
 .botonInicio {
     margin-left: 40px;
+}
+
+.darkMode {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botonesItemCount {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+
+.carritoVacio {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.botonesFinales {
+    display: flex;
+    justify-content: start;
+    column-gap: 15px;
+}
+
+.resumenCompra {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+
+.cardFinal {
+    text-align: center;
+}
+
+.cardFinal img {
+    display: flex;
+}
+
+.cardFinal button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cardBodyFinal {
+    color:hsl(219, 63%, 74%);
+    text-shadow: 0 0 8px black;
+}
+
+.imagenFinal {
+    display: flex;
+    justify-content: center;
+}
+
+.cartContainer {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 15px;
 }
