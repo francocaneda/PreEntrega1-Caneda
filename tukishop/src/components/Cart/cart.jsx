@@ -21,7 +21,7 @@ const Cart = () => {
                         <div className="card mb-3" key={prod.id} style={{maxWidth: '400px'}}>
                             <div className="imagenFinal">
                                 <div className="col-md-4">
-                                    <img src={`../img/${prod.img}`} alt="Producto" className="img-fluid rounded-start" />
+                                    <img src={prod.img} alt="Producto" className="img-fluid rounded-start" />
                                 </div>
                             </div>
                             <div className="cardFinal">

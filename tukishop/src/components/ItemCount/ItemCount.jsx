@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import { useDarkModeContext } from '../../context/DarkModeContext';
+import { toast } from 'react-toastify';
 const ItemCount = ({inicial, stock, onAdd}) => {
     const {darkMode} = useDarkModeContext()
 
@@ -9,16 +10,35 @@ const ItemCount = ({inicial, stock, onAdd}) => {
 
     const restar = () => contador > 1 && setContador(contador - 1)
     
-    const agregarAlCarrito = () => onAdd(contador)
+    const agregarAlCarrito = () => {
+        onAdd(contador)
+        
+            toast.success(`¡Producto agregado!`, {
+                position: "top-right",
+                autoClose: 4000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+        
+
+    }
+
+    
 
     return (
         <div className="botonesItemCount">
             <button onClick={restar} className={`btn ${darkMode ? 'btn-dark' : 'btn-light'}`}><i className="fas fa-minus"></i></button>
                     {contador}
             <button onClick={sumar} className={`btn ${darkMode ? 'btn-dark' : 'btn-light'}`}><i className="fas fa-plus"></i></button>
-            <button className={`btn ${darkMode ? 'btn-primary' : 'btn-dark'}`} onClick={agregarAlCarrito}><i className="fas fa-cart-plus"></i></button>
+            <button id="botoncito" className={`btn ${darkMode ? 'btn-primary' : 'btn-dark'}`} onClick={agregarAlCarrito}><i className="fas fa-cart-plus"></i></button>
+            
+
         </div>
     );
 }
+
 
 export default ItemCount;

@@ -4,95 +4,95 @@
         "idCategoria": "alimentos",
         "nombre": "Royal Canin",
         "precio": 1000,
-        "stock": 50,
-        "img": "alimento.png"
+        "stock": 85,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/alimento.png?alt=media&token=f360fab1-4572-4112-b150-b363899c1c66"
     },
     {
         "id": 2,
         "idCategoria": "accesorios",
         "nombre": "Collar Perro",
         "precio": 1000,
-        "stock": 30,
-        "img": "collar.png"     
+        "stock": 65,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/collar.png?alt=media&token=508d0418-d762-43bf-ae18-0a0338d55d8f"     
     },
     {
         "id": 3,
         "idCategoria": "accesorios",
         "nombre": "Peine",
         "precio": 600,
-        "stock": 30,
-        "img": "peine.png"     
+        "stock": 70,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/peine.png?alt=media&token=3dbbf697-ee69-49fa-8f82-76a6a226984e"     
     },
     {
         "id": 4,
         "idCategoria": "utilidades",
         "nombre": "Bolso",
         "precio": 450,
-        "stock": 35,
-        "img": "bolso.png"     
+        "stock": 62,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/bolso.png?alt=media&token=a335b30d-1a41-4362-97f7-a48ce096c13a"     
     },
     {
         "id": 5,
         "idCategoria": "accesorios",
         "nombre": "Arnes",
         "precio": 400,
-        "stock": 60,
-        "img": "arnes.png"     
+        "stock": 82,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/arnes.png?alt=media&token=dda58705-5c82-4319-96b5-504ff1c909e1"     
     },
     {
         "id": 6,
         "idCategoria": "utilidades",
         "nombre": "Shampoo",
         "precio": 450,
-        "stock": 40,
-        "img": "shampoo.png"     
+        "stock": 68,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/shampoo.png?alt=media&token=182a5223-41c0-4205-b50c-bb4b0174ccc9"     
     },
     {
         "id": 7,
         "idCategoria": "accesorios",
         "nombre": "Chaleco",
         "precio": 1200,
-        "stock": 20,
-        "img": "chaleco.png"     
+        "stock": 74,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/chaleco.png?alt=media&token=88fb9bdd-93a3-4015-b2cd-641d8b1008d8"     
     },
     {
         "id": 8,
         "idCategoria": "utilidades",
         "nombre": "Medicamento",
         "precio": 620,
-        "stock": 30,
-        "img": "medicamento.png"     
+        "stock": 90,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/medicamento.png?alt=media&token=ac14086b-b47c-4b4c-ba79-97aa1f94f0c0"     
     },
     {
         "id": 9,
         "idCategoria": "alimentos",
         "nombre": "Cat Chow",
         "precio": 1000,
-        "stock": 30,
-        "img": "catchow.png"   
+        "stock": 83,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/catchow.png?alt=media&token=753a49c1-4f47-47ed-8754-d1819a70b470"   
     },
     {
         "id": 10,
         "idCategoria": "accesorios",
         "nombre": "Collar Gato",
         "precio": 850,
-        "stock": 30,
-        "img": "collargato.png"   
+        "stock": 87,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/collargato.png?alt=media&token=8a26e4ae-96b5-453d-a4ed-05015a6fc073"   
     },
     {
         "id": 11,
         "idCategoria": "utilidades",
         "nombre": "Antipulgas",
         "precio": 710,
-        "stock": 30,
-        "img": "antipulgas.png"   
+        "stock": 70,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/antipulgas.png?alt=media&token=5180136a-1da9-48e8-b6d5-f7b49fcb7184"   
     },
     {
         "id": 12,
         "idCategoria": "alimentos",
         "nombre": "Alimento Reptiles",
         "precio": 630,
-        "stock": 30,
-        "img": "reptil.png"   
+        "stock": 71,
+        "img": "https://firebasestorage.googleapis.com/v0/b/tukishop-caneda.appspot.com/o/reptil.png?alt=media&token=3f35d16a-aac0-4f6f-b07d-6d0d16986502"   
     }
 ]

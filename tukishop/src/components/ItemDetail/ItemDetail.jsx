@@ -15,7 +15,7 @@ const ItemDetail = ({item}) => {
     return (
         <div className="row g-0 cardDetallePrincipal">
             <div className="col-md-4 cardDetalle">
-                <img src={`../img/${item.img}`} alt="imagen" className="img-fluid rounded-start"/>
+                <img src={item.img} alt="imagen" className="img-fluid rounded-start"/>
             </div>
             <div className="col-md-8">
                 <div className="card-body">
@@ -23,7 +23,8 @@ const ItemDetail = ({item}) => {
                     <p className="card-text">Precio: $ {new Intl.NumberFormat('de-DE').format(item.precio)} </p>
                     <p className="card-text">Stock: {item.stock} </p>
                     <ItemCount inicial = {1} stock= {item.stock} onAdd={onAdd}/><br/>
-                    <Link to="/cart" className="nav-link"><button className={`btn ${darkMode ? 'btn-dark border-light' : 'btn-dark border-light'}`}> FINALIZAR COMPRA</button></Link>
+                    <div className="finalizarCompra"><Link to="/cart" className="nav-link"><button className={`btn ${darkMode ? 'btn-dark border-light' : 'btn-dark border-light'}`}> FINALIZAR COMPRA</button></Link></div>
+                    <div><Link  className="nav-link" to={'/'}><button className={`btn ${darkMode ? 'btn-dark border-light' : 'btn-dark border-light'}`}>Continuar comprando</button></Link></div>
                 </div>
                 
             </div>
