@@ -31,7 +31,21 @@ const Checkout = () => {
 
         createOrdenCompra(cliente,totalPrice(), new Date().toISOString()).then(ordenCompra => {
             getOrdenCompra(ordenCompra.id).then(item => {
-                toast.success(`¡Compra confirmada, su orden es ${item.id} !`)
+                
+                toast.success(<span className="productoAgregado">¡Compra confirmada, su orden es {item.id} !</span>, {
+                    position: "top-right",
+                    autoClose: 4000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    
+                    style:
+                    {                         
+                        background: "linear-gradient(to right, #676C99, #9AA3E6)",
+                    }
+                });
                 emptyCart()
                 e.target.reset()
                 navigate("/")

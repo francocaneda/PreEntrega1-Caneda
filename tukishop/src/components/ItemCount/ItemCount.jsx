@@ -13,7 +13,7 @@ const ItemCount = ({inicial, stock, onAdd}) => {
     const agregarAlCarrito = () => {
         onAdd(contador)
         
-            toast.success(`¡Producto agregado!`, {
+            toast.success(<span className="productoAgregado">¡Producto agregado!</span>, {
                 position: "top-right",
                 autoClose: 4000,
                 hideProgressBar: false,
@@ -21,6 +21,12 @@ const ItemCount = ({inicial, stock, onAdd}) => {
                 pauseOnHover: true,
                 draggable: true,
                 progress: undefined,
+                
+                style:
+                {   
+                    
+                    background: "linear-gradient(to right, #676C99, #9AA3E6)",
+                }
             });
         
 
