@@ -42,7 +42,7 @@ const Cart = () => {
                     <div className="botonesFinales">
                     <button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`} onClick={emptyCart}>Vaciar Carrito</button>
                     <Link  className="nav-link" to={'/'}><button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}>Continuar comprando</button></Link>
-                    <Link  className="nav-link" to={'/checkout'}><button className={`btn ${darkMode ? 'btn-secondary border-light' : 'btn-dark border-light'}`}>Finalizar Compra</button></Link>
+                    <Link  className="nav-link" to={'/checkout'}><button className={`btn ${darkMode ? 'btn-primary border-light' : 'btn-warning border-light'}`}>Finalizar Compra</button></Link>
                     </div>
                 </div>   
             </div>

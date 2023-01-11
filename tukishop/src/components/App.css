@@ -145,3 +145,7 @@
 .formularioFinal label {
     color:hsl(219, 63%, 74%);
 }
+
+.botonDeConfirmacion {
+    font-size: 60px;
+}

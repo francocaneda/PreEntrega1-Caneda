@@ -36,35 +36,35 @@ const Checkout = () => {
     const validate = (values)=>{
         const errors ={};
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;      
-        //Errores de nombre y apellido (que no los ingrese)
+        
         if (!values.nombre) {
-            errors.nombre = "El nombre y apellido son necesarios";
+            errors.nombre = "Este campo es obligatorio";
         }
-        //Errores del email (que no lo ingrese, que no sea valido)
+        
         if (!values.email) {
-            errors.email = "El email es requerido";
+            errors.email = "Este campo es obligatorio";
         } else if (!regex.test(values.email)) {
-            errors.email = "Ese no es un formato valido de email";
+            errors.email = "El tipo de Email es inválido";
         }
-        //Errores del email a validar (que no lo ingrese, que no sea valido, que no sea el mismo, que no sea valido podria borrarse ya que si es valido el primero solo con que sea igual ya es valido)
+        
         if (!values.email2){
-            errors.email2 = "Debe ingresar nuevamente el email";            
+            errors.email2 = "Reingrese el mismo email";            
         }else if (!regex.test(values.email2)) {
-            errors.email2 = "Ese no es un formato valido de email";
+            errors.email2 = "El tipo de Email es inválido";
         }else if (values.email2!==values.email){
-            errors.email2 = "Los emails no coinciden";
+            errors.email2 = "Los emails ingresados no coinciden";
         }
-        //Errores del DNI (que no lo ingrese, ya que sea un numero me aseguro dandole el tipo "number" al input)
+        
         if (!values.dni){
             errors.dni="Debe ingresar su DNI";
         }
-        //Errores del Celular (idem DNI)
+        
         if (!values.celular){
-            errors.celular="Debe ingresar su celular";
+            errors.celular="Este campo es obligatorio";
         }
-        //Errores de la dirección (Que no la ingrese)
+       
         if (!values.direccion){
-            errors.direccion="Debe ingresar su direccion";
+            errors.direccion="Este campo es obligatorio";
         }
         return errors;
     };
@@ -93,7 +93,7 @@ const Checkout = () => {
             getOrdenCompra(ordenCompra.id).then(item => {
                 
 
-                toast.success(<span className="productoAgregado">¡Compra confirmada, su orden es {item.id} !</span>, {
+                toast.success(<span className="productoAgregado">¡Compra confirmada, su número de Orden es: {item.id} !</span>, {
                     position: "top-right",
                     autoClose: 4000,
                     hideProgressBar: false,
@@ -152,45 +152,11 @@ const Checkout = () => {
                     <input type="text" className="form-control" name="direccion"  value={formValues.direccion} onChange={handleChange}/>
                     <p className='colorMensajeCheckout'>{formErrors.direccion}</p>
                 </div>
-                <button type="submit" className="btn btn-primary">Finalizar Compra</button>
+                <button type="submit" className="btn btn-warning border-light">Finalizar Compra</button>
             </form>
 
         </div>
     );
 
-
-
-    /*
-    return (
-        <div className="container" style={{marginTop: "20px"}}>
-            <form onSubmit={consultarFormulario} ref={datosFormulario}>
-                <div className="mb-3">
-                    <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
-                    <input type="text" className="form-control" name="nombre" />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" name="email" />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="email2" className="form-label">Repetir Email</label>
-                    <input type="email" className="form-control" name="email2" />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="dni" className="form-label">DNI</label>
-                    <input type="number" className="form-control" name="dni" />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="celular" className="form-label">Numero telefonico</label>
-                    <input type="number" className="form-control" name="celular" />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="direccion" className="form-label">Dirección</label>
-                    <input type="text" className="form-control" name="direccion" />
-                </div>
-                <button type="submit" className="btn btn-primary">Finalizar Compra</button>
-            </form>
-        </div>
-    );*/
 }
 export default Checkout;
