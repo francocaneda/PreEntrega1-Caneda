@@ -1,6 +1,6 @@
 # React-Proyecto-Final-CanedaFranco
 
-_Proyecto final Caneda Franco Comision ReactJS 41100 - Coderhouse_
+_Proyecto final - Caneda Franco  Comision ReactJS 41100 - Coderhouse_
 
 ### Pre Requirements 📋
 
