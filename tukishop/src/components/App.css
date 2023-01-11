@@ -141,3 +141,7 @@
 .productoAgregado {
     color: white;
 }
+
+.formularioFinal label {
+    color:hsl(219, 63%, 74%);
+}
