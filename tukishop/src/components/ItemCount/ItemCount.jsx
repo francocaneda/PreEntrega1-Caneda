@@ -15,7 +15,7 @@ const ItemCount = ({inicial, stock, onAdd}) => {
         
             toast.success(<span className="productoAgregado">¡Producto agregado!</span>, {
                 position: "top-right",
-                autoClose: 4000,
+                autoClose: 2500,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -39,7 +39,7 @@ const ItemCount = ({inicial, stock, onAdd}) => {
             <button onClick={restar} className={`btn ${darkMode ? 'btn-dark' : 'btn-light'}`}><i className="fas fa-minus"></i></button>
                     {contador}
             <button onClick={sumar} className={`btn ${darkMode ? 'btn-dark' : 'btn-light'}`}><i className="fas fa-plus"></i></button>
-            <button id="botoncito" className={`btn ${darkMode ? 'btn-primary' : 'btn-dark'}`} onClick={agregarAlCarrito}><i className="fas fa-cart-plus"></i></button>
+            <button id="botoncito" className={`btn ${darkMode ? 'btn-dark border-light' : 'btn-dark border-light'}`} onClick={agregarAlCarrito}><i className="fas fa-cart-plus"></i></button>
             
 
         </div>
